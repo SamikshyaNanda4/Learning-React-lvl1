@@ -1,0 +1,13 @@
+/* Ensure the bullet type is disc and keep the padding/indentation */
+.inline-disc {
+    list-style-type: disc; /* Disc bullet type */
+    padding-left: 20px;     /* Indentation for the bullets */
+    margin: 0;              /* Remove default margin */
+    display: flex;          /* Display list items inline */
+  }
+  
+  .inline-disc li {
+    margin-right: 20px;     /* Space between list items */
+    display: inline-block;  /* Display list items inline */
+    white-space: nowrap;    /* Prevents text from wrapping */
+  }
